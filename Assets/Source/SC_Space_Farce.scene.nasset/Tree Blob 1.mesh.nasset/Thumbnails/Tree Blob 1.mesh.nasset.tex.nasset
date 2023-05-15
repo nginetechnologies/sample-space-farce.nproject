@@ -1,9 +1,9 @@
 {
     "guid": "f78942bd-e5bc-0041-13f6-bc49fa227324",
-    "source": "Source/Tree Blob 1.mesh.nasset.dds",
+    "source": "Source/Tree_Blob_1_Thumb.png",
     "assetTypeGuid": "c4e01aa2-495d-4eb1-b9be-fe0e30500b07",
     "resolution": [
-        256
+        2048
     ],
     "preset": 3,
     "usage_flags": 6,
@@ -13,46 +13,61 @@
             {
                 "level": 0,
                 "offset": 0,
-                "size": 32768
+                "size": 2097152
             },
             {
                 "level": 1,
-                "offset": 32768,
-                "size": 8192
+                "offset": 2097152,
+                "size": 524288
             },
             {
                 "level": 2,
-                "offset": 40960,
-                "size": 2048
+                "offset": 2621440,
+                "size": 131072
             },
             {
                 "level": 3,
-                "offset": 43008,
-                "size": 512
+                "offset": 2752512,
+                "size": 32768
             },
             {
                 "level": 4,
-                "offset": 43520,
-                "size": 128
+                "offset": 2785280,
+                "size": 8192
             },
             {
                 "level": 5,
-                "offset": 43648,
-                "size": 32
+                "offset": 2793472,
+                "size": 2048
             },
             {
                 "level": 6,
-                "offset": 43680,
-                "size": 8
+                "offset": 2795520,
+                "size": 512
             },
             {
                 "level": 7,
-                "offset": 43688,
-                "size": 8
+                "offset": 2796032,
+                "size": 128
             },
             {
                 "level": 8,
-                "offset": 43696,
+                "offset": 2796160,
+                "size": 32
+            },
+            {
+                "level": 9,
+                "offset": 2796192,
+                "size": 8
+            },
+            {
+                "level": 10,
+                "offset": 2796200,
+                "size": 8
+            },
+            {
+                "level": 11,
+                "offset": 2796208,
                 "size": 8
             }
         ]
@@ -63,46 +78,61 @@
             {
                 "level": 0,
                 "offset": 0,
-                "size": 16384
+                "size": 1048576
             },
             {
                 "level": 1,
-                "offset": 16384,
-                "size": 4096
+                "offset": 1048576,
+                "size": 262144
             },
             {
                 "level": 2,
-                "offset": 20480,
-                "size": 1024
+                "offset": 1310720,
+                "size": 65536
             },
             {
                 "level": 3,
-                "offset": 21504,
-                "size": 256
+                "offset": 1376256,
+                "size": 16384
             },
             {
                 "level": 4,
-                "offset": 21760,
-                "size": 64
+                "offset": 1392640,
+                "size": 4096
             },
             {
                 "level": 5,
-                "offset": 21824,
-                "size": 16
+                "offset": 1396736,
+                "size": 1024
             },
             {
                 "level": 6,
-                "offset": 21840,
-                "size": 16
+                "offset": 1397760,
+                "size": 256
             },
             {
                 "level": 7,
-                "offset": 21856,
-                "size": 16
+                "offset": 1398016,
+                "size": 64
             },
             {
                 "level": 8,
-                "offset": 21872,
+                "offset": 1398080,
+                "size": 16
+            },
+            {
+                "level": 9,
+                "offset": 1398096,
+                "size": 16
+            },
+            {
+                "level": 10,
+                "offset": 1398112,
+                "size": 16
+            },
+            {
+                "level": 11,
+                "offset": 1398128,
                 "size": 16
             }
         ]
