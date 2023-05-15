@@ -1,7 +1,7 @@
 {
     "name": "Space Farce",
     "guid": "ee25ece4-941b-4f07-835b-5a1e5dfdc1b0",
-	"database_guid": "3c3f9b43-19b9-0afb-43b8-a72a7bbc24e6",
+	"database_guid": "feb727f4-c33f-aa89-16b6-c6ebf61894a7",
     "version": "1.0.0",
     "engine": "3ff049e0-0880-4898-879d-1ccf5583c9c6",
     "plugins": [
