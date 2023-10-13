@@ -19,32 +19,15 @@
             },
             "transform": {
                 "position": [
-                    -8.0681,
-                    13.1218,
-                    19.4262
+                    6098.1425,
+                    -2350.0783,
+                    -3050.6137
                 ],
                 "rotation": [
-                    -32.9478,
-                    0.0,
-                    -31.6034
+                    -42.5507,
+                    -0.0,
+                    -111.8938
                 ]
-            },
-            "grid_settings": {
-                "typeGuid": "ecc5ac5d-5450-4808-97b1-e25d91462d96",
-                "ecc5ac5d-5450-4808-97b1-e25d91462d96": {
-                    "transform": {
-                        "position": [
-                            0.0,
-                            36.0,
-                            4.0
-                        ],
-                        "scale": [
-                            -1.0,
-                            -1.0,
-                            1.0
-                        ]
-                    }
-                }
             }
         },
         {
@@ -78,8 +61,8 @@
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     2.5604,
-                    51.3331,
-                    2.0574
+                    51.333,
+                    2.0573
                 ]
             },
             "data_components": [
@@ -98,7 +81,7 @@
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     32.3111,
-                    46.9074,
+                    46.9071,
                     1.4922
                 ]
             },
@@ -220,12 +203,12 @@
             "instanceGuid": "40ef0b1b-5be8-ba50-219e-500027d18fb0",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    2.4311,
+                    2.4309,
                     55.3706,
                     0.0
                 ],
                 "scale": [
-                    4.0101
+                    4.01
                 ]
             },
             "data_components": [
@@ -326,7 +309,7 @@
             "instanceGuid": "115399ba-6bf6-9cf6-673b-b3f81bfb5c15",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    -0.443,
+                    -0.4429,
                     30.8022,
                     2.6359
                 ]
@@ -380,7 +363,7 @@
                 ],
                 "rotation": [
                     0.0,
-                    0.0,
+                    -0.0,
                     89.999
                 ]
             },
@@ -399,8 +382,8 @@
             "instanceGuid": "a368e334-7016-a97b-b4da-994873bef989",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    10.235,
-                    43.4002,
+                    10.2349,
+                    43.4001,
                     2.5664
                 ]
             },
@@ -421,7 +404,7 @@
                 "position": [
                     -8.5593,
                     29.2621,
-                    2.5259
+                    2.5257
                 ]
             },
             "data_components": [
@@ -447,25 +430,96 @@
                     0.0,
                     0.0,
                     -45.0
-                ]
+                ],
+                "referenced": true
             },
             "88a0cdbb-2826-46e3-b372-2a5154eacb61": {
                 "asset": "4169f1fe-8228-4b2d-8cd2-18e07b18c5be"
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spawn Point"
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                    "mask": [
+                        "997e9c4d-d494-4a6e-bb6c-620ced5fabde"
+                    ]
                 },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "d3f8c605-fcfb-7875-d708-d957a810e116"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "88a0cdbb-2826-46e3-b372-2a5154eacb61",
-                        "997e9c4d-d494-4a6e-bb6c-620ced5fabde"
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spawn Point"
+                }
+            ]
+        },
+        {
+            "typeGuid": "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370",
+            "instanceGuid": "80a52b3d-f270-457a-bf1d-a1ee4d5f69b5",
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+                    75.0,
+                    100.0,
+                    -15.0
+                ]
+            },
+            "bb15f0a1-1644-44b2-9f6c-4c09ec7c7370": {
+                "spawnPoint": {
+                    "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
+                    "instanceGuid": "e3675f5b-51cc-0e56-9a36-c6f386f651eb"
+                }
+            },
+            "data_components": [
+                {
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "80a52b3d-f270-457a-bf1d-a1ee4d5f69b5"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Respawn Zone"
+                },
+                {
+                    "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
+                    "type": 0,
+                    "layer": 3,
+                    "body_flags": 1,
+                    "maximumAngularVelocity": 2699.9997,
+                    "overriddenMass": 0.0,
+                    "gravityScale": 1.0
+                }
+            ],
+            "children": [
+                {
+                    "typeGuid": "e81f4e62-fee0-4182-9c1a-a47c053b813f",
+                    "instanceGuid": "5dfb40fe-3825-8b2f-3752-c9d8935b3e94",
+                    "10dceba7-be9f-4a9d-9902-6f51bed634ab": {
+                        "physical_material": "db5dc618-2cfe-44e9-a319-69c503d090e7",
+                        "comOffset": [
+                            0.0
+                        ]
+                    },
+                    "e81f4e62-fee0-4182-9c1a-a47c053b813f": {
+                        "half_extent": [
+                            100.0,
+                            100.0,
+                            1.0
+                        ]
+                    },
+                    "data_components": [
+                        {
+                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
+                        },
+                        {
+                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                            "templateInstanceGuid": "5dfb40fe-3825-8b2f-3752-c9d8935b3e94"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Box Collider"
+                        }
                     ]
                 }
             ]
@@ -504,19 +558,18 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Directional Light"
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                    "mask": [
+                        "13ca71b8-d868-4f7c-a0bb-c7585db11327"
+                    ]
                 },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "8f32c5fc-bac8-4d50-97df-bdf0be0ad32e",
-                        "13ca71b8-d868-4f7c-a0bb-c7585db11327"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Directional Light"
                 }
             ]
         },
@@ -535,18 +588,15 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Directional Gravity"
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
                 },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "18346473-407b-41da-9738-296707036b30"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "37000929-8ed6-4f15-a9ec-4f7d15302f02"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Directional Gravity"
                 }
             ]
         },
@@ -578,19 +628,18 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Environment Light"
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                    "mask": [
+                        "13ca71b8-d868-4f7c-a0bb-c7585db11327"
+                    ]
                 },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "7be15c72-f784-4f5e-b895-7cc2fbef6355",
-                        "13ca71b8-d868-4f7c-a0bb-c7585db11327"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Environment Light"
                 }
             ]
         },
@@ -619,19 +668,18 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Skysphere"
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                    "mask": [
+                        "13ca71b8-d868-4f7c-a0bb-c7585db11327"
+                    ]
                 },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "f695b7d2-b906-4085-5b54-71c0ed7599b6"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                        "13ca71b8-d868-4f7c-a0bb-c7585db11327"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Skysphere"
                 }
             ]
         },
@@ -894,7 +942,7 @@
                 ],
                 "rotation": [
                     89.999,
-                    0.0,
+                    -0.0,
                     0.0
                 ]
             },
@@ -957,18 +1005,15 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spline"
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905"
                 },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "28e2e4a1-a6be-0d96-726c-0e10ec51ecbe"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "304ec37e-bce4-48b6-9c2e-6108738270ff"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spline"
                 }
             ]
         },
@@ -1012,9 +1057,9 @@
                     5.1802
                 ],
                 "rotation": [
-                    -179.999,
+                    -179.9987,
                     -0.0,
-                    -97.4258
+                    -97.4252
                 ],
                 "scale": [
                     1.5441,
@@ -1072,39 +1117,35 @@
                     2.5065
                 ],
                 "rotation": [
-                    -89.9998,
-                    0.0,
+                    -89.999,
+                    -0.0,
                     0.0
                 ],
                 "scale": [
                     1.3386,
-                    0.1191,
-                    1.3385
+                    0.1169,
+                    1.3364
                 ]
             },
             "data_components": [
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "9808ad39-183d-25ad-8668-1bc88ddfa117"
+                },
                 {
                     "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
                     "spline": {
                         "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
                         "instanceGuid": "28e2e4a1-a6be-0d96-726c-0e10ec51ecbe"
                     },
-                    "velocity": 1.0
+                    "velocity": 1.0,
+                    "override": false,
+                    "applyRotation": false,
+                    "mode": 2
                 },
                 {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                     "name": "House Back"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "9808ad39-183d-25ad-8668-1bc88ddfa117"
-                },
-                {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
                 }
             ],
             "children": [
@@ -1143,15 +1184,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "FinishFlag"
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "8b4bc43c-5d7a-fe64-1b4e-6a463ed9ad89"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "c642f003-618a-45dc-a031-b16f61473103",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "FinishFlag"
                 }
             ],
             "children": [
@@ -1172,13 +1210,6 @@
                                 {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "dab6dc4f-72dc-4f2e-a20b-49be4c24edc3"
-                                },
-                                {
-                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                                    "mask": [
-                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                                    ]
                                 }
                             ],
                             "children": [
@@ -1201,6 +1232,16 @@
                             }
                         }
                     ]
+                },
+                {
+                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
+                    "data_components": [
+                        {
+                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                            "templateInstanceGuid": "c548f937-9bf1-fdff-e013-827d82a3467a",
+                            "flags": 2
+                        }
+                    ]
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1219,15 +1260,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "CoinCollectible"
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "92e995ce-ad9b-a7d8-99f7-1fd5892971a8"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "c642f003-618a-45dc-a031-b16f61473103",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "CoinCollectible"
                 }
             ],
             "children": [
@@ -1248,13 +1286,6 @@
                                 {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "ead289a0-2916-4b24-9bda-8ac95d0c94c3"
-                                },
-                                {
-                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                                    "mask": [
-                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                                    ]
                                 }
                             ],
                             "children": [
@@ -1277,26 +1308,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-                    "instanceGuid": "941d39c0-51a2-49ba-6e7b-a1511149248a",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "ce6bc7da-63f7-476e-a014-0ec4184bf526"
-                        },
-                        {
-                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                            "mask": [
-                                "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                            ]
-                        }
-                    ],
-                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                        "scene": "f6a49598-13c0-32a7-ac2e-71bad80ed913"
-                    }
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1315,15 +1326,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "CoinCollectible"
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "b3e2f77e-63fc-20ae-42f4-c2446f675b80"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "c642f003-618a-45dc-a031-b16f61473103",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "CoinCollectible"
                 }
             ],
             "children": [
@@ -1344,13 +1352,6 @@
                                 {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "ead289a0-2916-4b24-9bda-8ac95d0c94c3"
-                                },
-                                {
-                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                                    "mask": [
-                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                                    ]
                                 }
                             ],
                             "children": [
@@ -1373,26 +1374,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-                    "instanceGuid": "0345c5f6-114e-e412-4fa4-fb063e0cd3df",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "ce6bc7da-63f7-476e-a014-0ec4184bf526"
-                        },
-                        {
-                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                            "mask": [
-                                "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                            ]
-                        }
-                    ],
-                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                        "scene": "f6a49598-13c0-32a7-ac2e-71bad80ed913"
-                    }
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1411,15 +1392,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "CoinCollectible"
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "55ceb832-548d-bef5-186d-dded785038d4"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "c642f003-618a-45dc-a031-b16f61473103",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "CoinCollectible"
                 }
             ],
             "children": [
@@ -1440,13 +1418,6 @@
                                 {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "ead289a0-2916-4b24-9bda-8ac95d0c94c3"
-                                },
-                                {
-                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                                    "mask": [
-                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                                    ]
                                 }
                             ],
                             "children": [
@@ -1469,26 +1440,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-                    "instanceGuid": "d0cd59a8-5d34-e493-92e2-5a92177af401",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "ce6bc7da-63f7-476e-a014-0ec4184bf526"
-                        },
-                        {
-                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                            "mask": [
-                                "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                            ]
-                        }
-                    ],
-                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                        "scene": "f6a49598-13c0-32a7-ac2e-71bad80ed913"
-                    }
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1507,15 +1458,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "CoinCollectible"
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "53ce75f2-46fe-3370-9506-6ca63387eaac"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "c642f003-618a-45dc-a031-b16f61473103",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "CoinCollectible"
                 }
             ],
             "children": [
@@ -1536,13 +1484,6 @@
                                 {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "ead289a0-2916-4b24-9bda-8ac95d0c94c3"
-                                },
-                                {
-                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                                    "mask": [
-                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                                    ]
                                 }
                             ],
                             "children": [
@@ -1565,26 +1506,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-                    "instanceGuid": "6d43bd36-ddee-6267-2762-eec3bb17db57",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "ce6bc7da-63f7-476e-a014-0ec4184bf526"
-                        },
-                        {
-                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                            "mask": [
-                                "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                            ]
-                        }
-                    ],
-                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                        "scene": "f6a49598-13c0-32a7-ac2e-71bad80ed913"
-                    }
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1598,20 +1519,17 @@
                 "position": [
                     0.0,
                     36.6151,
-                    4.1889
+                    4.1887
                 ]
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "CoinCollectible"
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "11651892-e853-ebee-fbe3-a8ee4a3115f1"
                 },
                 {
-                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                    "mask": [
-                        "c642f003-618a-45dc-a031-b16f61473103",
-                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                    ]
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "CoinCollectible"
                 }
             ],
             "children": [
@@ -1632,13 +1550,6 @@
                                 {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "ead289a0-2916-4b24-9bda-8ac95d0c94c3"
-                                },
-                                {
-                                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                                    "mask": [
-                                        "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                        "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                                    ]
                                 }
                             ],
                             "children": [
@@ -1661,30 +1572,26 @@
                             }
                         }
                     ]
-                },
-                {
-                    "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
-                    "instanceGuid": "21493bed-75b4-4685-ff43-d11e9d879c49",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "ce6bc7da-63f7-476e-a014-0ec4184bf526"
-                        },
-                        {
-                            "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
-                            "mask": [
-                                "3db9a07a-f18a-4fe6-87e9-999ef466091a",
-                                "0c3f4f29-0d53-4878-922a-cca7d6af7bb6"
-                            ]
-                        }
-                    ],
-                    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
-                        "scene": "f6a49598-13c0-32a7-ac2e-71bad80ed913"
-                    }
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
                 "scene": "762aa592-48c5-401c-a1a3-997e85e9f1a0"
+            }
+        },
+        {
+            "typeGuid": "0c3f4f29-0d53-4878-922a-cca7d6af7bb6",
+            "instanceGuid": "555f56c7-4398-9c0f-d8b9-c52e5c9dcb57",
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "disabled_with_children": true
+            },
+            "data_components": [
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "555f56c7-4398-9c0f-d8b9-c52e5c9dcb57"
+                }
+            ],
+            "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+                "scene": "9cf278d4-aa46-4c87-b47f-d59b5dc2bccb"
             }
         }
     ],
