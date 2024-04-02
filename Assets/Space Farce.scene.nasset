@@ -37,7 +37,6 @@
     "children": [
         {
             "typeGuid": "d2c2c3a5-b813-4ab8-b52f-7986940e5b67",
-            "instanceGuid": "3007bcaa-22bf-42e5-d85a-b0ec8e2678f8",
             "data_components": [
                 {
                     "typeGuid": "22dce412-2016-4019-8392-90ff0294a32e"
@@ -60,10 +59,6 @@
                 },
                 {
                     "typeGuid": "7adde0df-a07d-45dc-999e-80066aed55a9"
-                },
-                {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "3007bcaa-22bf-42e5-d85a-b0ec8e2678f8"
                 },
                 {
                     "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
