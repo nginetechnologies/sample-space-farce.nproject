@@ -7,6 +7,7 @@
         "radius": 4096.0
     },
     "metadata": {
+        "b59ca996-9dba-4fe9-a9a6-4fff12b86b3e": "{\"fieldOfView\":60.0,\"nearPlane\":0.10000000149011612,\"farPlane\":256.0}",
         "bfb3d666-cd09-4266-af70-8cb9fc5f5d5b": "{\"position\":[-15.3156,18.4817,21.5999],\"rotation\":[-38.9196,-0.0,-53.0371]}"
     },
     "children": [
